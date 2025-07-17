@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulastri - IT Support & Network Tech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="desktopNav">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+        <div class="mobile-nav" id="mobileNav">
+            <a href="#hero">Home</a>
+            <a href="#volunteer">Volunteer</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-image-container">
+                <img src="img/m.jpg" alt="Sulastri Profile Photo" class="hero-image">
+                <a href="https://wa.me/6285810648653" class="small-hire-btn">HIRE ME</a>
+            </div>
+            <div class="hero-text">
+                <h1>HI! I'M SULASTRI</h1>
+                <h2>TECH ENTHUSIAST</h2>
+                <p>Mahasiswa aktif Program Studi Teknik Informatika Universitas Bina Sarana Informatika dengan pengalaman akademik dalam pengembangan aplikasi berbasis web, desain UI/UX. Memiliki keahlian dalam HTML, CSS, Laravel, Python, dan SQL, serta terbiasa menggunakan Figma dan Canva untuk desain antarmuka berbasis pendekatan Design Thinking. Terlatih dalam penyusunan dokumentasi teknis, memahami jaringan dasar (LAN, Mikrotik, Cisco), dan terbiasa bekerja dalam tim proyek teknologi.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="volunteer" id="volunteer">
+            <h2 class="section-title">Volunteer</h2>
+            
+            <div class="volunteer-container">
+                <div class="volunteer-item">
+                    <div class="volunteer-content">
+                        <h3>Dedikasi Project</h3>
+                        <span class="date">Feb 2024 - Jun 2025</span>
+                        <h4>Program Coordinator & Master of Ceremony (MC)</h4>
+                        <ul>
+                            <li>Menyusun rundown acara sosial anak yatim untuk >60 peserta dan mengelola 5 segmen acara.</li>
+                            <li>Memimpin koordinasi dengan 10 anggota tim untuk memastikan kelancaran teknis dan alur acara.</li>
+                            <li>Mengembangkan kemampuan komunikasi, perencanaan, dan penyelesaian masalah secara real-time.</li>
+                            <li>Soft skill ini mendukung efektivitas kerja dalam koordinasi teknis dan user support di lingkungan IT.</li>
+                        </ul>
+                    </div>
+                    <div class="volunteer-image" style="background-image: url('img/d.jpg');"></div>
+                </div>
+                
+                <div class="volunteer-item">
+                    <div class="volunteer-content">
+                        <h3>Generasi Literasi – Indorelawan</h3>
+                        <span class="date">Jun 2024 - Aug 2024</span>
+                        <h4>Design Promotion Team</h4>
+                        <ul>
+                            <li>Berkontribusi dalam tim desain kampanye digital untuk proyek literasi.</li>
+                            <li>Mendukung penyampaian pesan melalui visual yang informatif dan konsisten.</li>
+                            <li>Meningkatkan ketelitian terhadap detail, kemampuan kerja tim, dan komunikasi lintas fungsi.</li>
+                            <li>Mengasah soft skill yang bermanfaat dalam dokumentasi IT dan layanan pengguna (user support).</li>
+                        </ul>
+                    </div>
+                    <div class="volunteer-image" style="background-image: url('img/g.jpg');"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="section-title">PROJECTS</h2>
+            <p>Here are some of my projects. Click on images to view them.</p>
+            
+            <div class="projects-grid">
+                <div class="project-item">
+                    <img src="img/ui.png" alt="Project 1" class="project-image">
+                    <a href="https://www.figma.com/proto/IYSe9NxQX1s6IIIpNRoRaW/Untitled?node-id=18-79&t=96uzhWEjo9VyWL1e-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A4&show-proto-sidebar=1" class="project-link" target="_blank">View Project</a>
+                </div>
+                
+                <div class="project-item">
+                    <img src="img/makcu.png" alt="Project 2" class="project-image">
+                    <a href="https://www.figma.com/proto/m3Nf46LQe4XJaejWlr97qd/Untitled?node-id=10-5&t=JRDud4gY7ezjwFSR-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=10%3A5&show-proto-sidebar=1" class="project-link" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificates" id="certificates">
+            <h2 class="section-title">CERTIFICATES</h2>
+            <p>Here are some of my professional certifications and achievements.</p>
+            
+            <div class="certificates-grid">
+                <div class="certificate-item" onclick="openModal('img/mikrotik.jpg')">
+                    <img src="img/mikrotik.jpg" alt="Certificate 1" class="certificate-image">
+                    <div class="certificate-caption">MikroTik Certified Network Associate</div>
+                </div>
+                
+                <div class="certificate-item" onclick="openModal('img/sertifbootcamp.jpg')">
+                    <img src="img/sertifbootcamp.jpg" alt="Certificate 2" class="certificate-image">
+                    <div class="certificate-caption">IT Bootcamp</div>
+                </div>
+                
+                <div class="certificate-item" onclick="openModal('img/py.jpg')">
+                    <img src="img/py.jpg" alt="Certificate 3" class="certificate-image">
+                    <div class="certificate-caption">PCAP-Programming Essentials In Python</div>
+                </div>
+                
+                <div class="certificate-item" onclick="openModal('img/zahir.jpg')">
+                    <img src="img/zahir.jpg" alt="Certificate 4" class="certificate-image">
+                    <div class="certificate-caption">DataBase System Proficiency Test</div>
+                </div>
+                <div class="certificate-item" onclick="openModal('img/py2.png')">
+                    <img src="img/py2.png" alt="Certificate 4" class="certificate-image">
+                    <div class="certificate-caption">DataBase System Proficiency Test</div>
+                </div>
+                
+                <div class="certificate-item" onclick="openModal('img/dedi.jpg')">
+                    <img src="img/dedi.jpg" alt="Certificate 5" class="certificate-image">
+                    <div class="certificate-caption">Dedikasi Project</div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="contact" class="contact-container">
+            <h2 class="section-title">GET IN TOUCH</h2>
+            <p>Feel free to reach out for collaborations or just to say hi!</p>
+            
+            <div class="social-links">
+                <a href="https://wa.me/6285810648653" class="social-link" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:17220588@bsi.ac.id" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sulastri-177b0a2b3/" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Certificate">
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Sulastri. All rights reserved.</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
